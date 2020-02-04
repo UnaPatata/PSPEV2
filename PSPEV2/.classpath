@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="35.FTPClient"/>
+	<classpathentry kind="src" path="36.TelnetClient"/>
+	<classpathentry kind="src" path="37.RMI.Server"/>
+	<classpathentry kind="src" path="37.RMI.Client"/>
+	<classpathentry kind="src" path="38.RMI.Hipoteca.Server"/>
+	<classpathentry kind="src" path="38.RMI.Hipoteca.Cliente"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/commons-net-3.6.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

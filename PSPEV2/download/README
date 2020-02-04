@@ -1,0 +1,10 @@
+Instructions for creating a bootable MemTest86 CD.
+=========================================================
+
+1) Insert a CD into the CD drive.
+2) Use the CD burning software available on your system to create a CD-ROM using the uncompressed ISO image
+
+Be sure that you create a CD image from the ISO file rather than placing a copy of the ISO file onto a data CD. 
+Look for “Burn Image from File” or similar option under the File menu of your CD burning software. On a Mac, 
+you can use 'Disk Utility'.
+
