@@ -76,7 +76,7 @@ public class MesaService extends Thread{
 			MesaMultiCastService emisor = new MesaMultiCastService(multiUDPNet, multiUDPPort, pantallaMesa);
 			emisor.start();
 		}//end-next
-	}
+	}//end-procesaComando
 }//end-MesaService
 
 

@@ -7,7 +7,7 @@ import java.net.Socket;
 import domain.ContadorMesas;
 import domain.MesaService;
 
-public class MainServer {
+public class MainMesaServer {
 	
 	public static void main(String[] args) throws IOException {
 		final int clientTCPPort = 9999;
