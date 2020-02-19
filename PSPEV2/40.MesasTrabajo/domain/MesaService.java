@@ -73,6 +73,8 @@ public class MesaService extends Thread{
 			String pantallaMesa = "MESA " + mesaAsignada + " puesto " + puesto + " número " +  mesas.getContador(mesaAsignada);
 			out.println("OK: " + pantallaMesa);
 			out.flush();
+			MesaMultiCastService emisor = new MesaMultiCastService(multiUDPNet, multiUDPPort, pantallaMesa);
+			emisor.start();
 		}//end-next
 	}
 }//end-MesaService
